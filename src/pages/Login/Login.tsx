@@ -8,7 +8,7 @@ import { clearLocalStorage } from '../../utilities';
 
 function Login() {
   const dispatch = useDispatch();
-  const navigate = useNavigate();
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     clearLocalStorage(UserKey);
